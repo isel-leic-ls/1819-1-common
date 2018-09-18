@@ -4,7 +4,6 @@ hs_err_pid*
 # intellij
 .idea
 *.iml
-out
 
 # gradle
 .gradle
