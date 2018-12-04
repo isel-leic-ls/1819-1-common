@@ -1,5 +1,7 @@
 package pt.isel.ls.html2;
 
+import org.apache.commons.text.StringEscapeUtils;
+
 import java.io.IOException;
 import java.io.Writer;
 
@@ -14,6 +16,6 @@ public class Text extends Node {
 
     @Override
     public void writeTo(Writer writer) throws IOException {
-        writer.write(text);
+        writer.write(StringEscapeUtils.escapeHtml4(text));
     }
 }
