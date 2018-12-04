@@ -18,4 +18,4 @@ dependencies {
 }
 
 mainClassName = 'pt.isel.ls.heroku.HerokuServer'
-task stage(dependsOn: ['clean', 'installApp'])
+task stage(dependsOn: ['clean', 'installDist'])

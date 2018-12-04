@@ -1,1 +1,1 @@
-web: ./build/install/1819-1-common/bin/1819-1-common
+web: ./build/install/S1819-1-common/bin/S1819-1-common
